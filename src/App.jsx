@@ -1,11 +1,12 @@
 import './App.css'
 import { Welcome } from './Welcome'
 import { Button } from './Button'
+import { Hello } from './Hello'
 
 function App() {
   return (
     <>
-      <div><h1>Code vui ver</h1></div>
+      <Hello />
       <Welcome />
       <Button />
     </>
