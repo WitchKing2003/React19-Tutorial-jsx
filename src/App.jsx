@@ -1,12 +1,6 @@
 import './App.css'
-
-function Welcome() {
-  return <h2>Welcome, Chinh Nguyen!</h2>;
-}
-
-function Button() {
-  return <button>Cleck me</button>
-}
+import { Welcome } from './Welcome'
+import { Button } from './Button'
 
 function App() {
   return (
